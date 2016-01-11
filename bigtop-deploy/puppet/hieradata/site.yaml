@@ -30,6 +30,7 @@ hadoop::hadoop_storage_dirs:
 #  - sqoop
 #  - sqoop2
 #  - tachyon
+#  - tajo
 #  - tez
 #  - yarn
 #  - zookeeper

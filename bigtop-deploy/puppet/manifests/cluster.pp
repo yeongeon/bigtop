@@ -53,6 +53,10 @@ $roles_map = {
     master => ["tachyon-master"],
     worker => ["tachyon-worker"],
   },
+  tajo => {
+    master => ["tajo-master"],
+    worker => ["tajo-worker"],
+  },
   flume => {
     worker => ["flume-agent"],
   },
@@ -164,6 +168,7 @@ class node_with_roles ($roles = hiera("bigtop::roles")) inherits hadoop_cluster_
     "solr",
     "spark",
     "tachyon",
+    "tajo",
     "tez",
     "ycsb",
     "kerberos"
